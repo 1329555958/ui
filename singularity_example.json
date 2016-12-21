@@ -1,0 +1,10 @@
+template: Hello,my name is %s!
+defaultName: Stranger
+
+server:
+  applicationConnectors:
+    - type: http
+      port: 9080
+  adminConnectors:
+    - type: http
+      port: 8081
